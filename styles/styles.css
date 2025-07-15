@@ -1,3 +1,10 @@
+:root {
+    --heading-width: 150px;
+    --heading-text-align: center;
+    --height: auto;
+}
+
+
 nav {
     background-color: darkblue;
     padding: 10px;
@@ -14,7 +21,7 @@ h1 {
 }
 
 img {
-    width: 150px;
+    width: var(--heading-width);
     height: auto;
     border: 1px solid black;
     padding: 2px;
@@ -34,19 +41,19 @@ aside{
     padding: 1rem;
     background-color: #eee;
     color: #333;
-    text-align: center;
+    text-align: var(--heading-text-align);
 }
 aside img {
     width: 200px;
-    height: auto;
+    height: var(--height);
 }
 main img{
-    width: 150px;
-    height: auto;
+    width: var(--heading-width);
+    height: var(--height);
 }
 p {padding: 0;}
 footer {
     margin-top: 15px;
     border-top: 1px solid #000;
-    text-align: center;
+    text-align: var(--heading-text-align);
 }
