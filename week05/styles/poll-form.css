@@ -1,0 +1,81 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header h1{
+    color: #745;
+}
+form {
+    width: auto;
+    margin: 50;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: grey;
+    display: grid;
+}
+fieldset {
+    position: relative;
+    display: grid;
+    grid-gap: 10px;
+}
+legend {
+    bottom: 0;
+    right: 0;
+}
+label,
+input,
+button,
+select,
+textarea {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100%;
+    text-align: center;
+}
+label {
+    text-align: right;
+    padding-right: 0rem;
+}
+input,
+select,
+textarea {
+    padding: 0px;
+    font-size: 90%;
+}
+input[type="checkbox"] {
+    width: 20px;
+    height: 50px;
+    vertical-align: bottom;
+}
+button {
+    margin: 1rem;
+    padding: 30px;
+    box-shadow: #436534;
+    border: solid black;
+    color: #000;
+}
+button:hover{
+    background-color: #767676;
+}
+footer {
+    color: #455745;
+    text-align: center;
+    padding:34px;
+    margin: 23px;
+    font-size: 87%;
+}
+.form-item {
+    display: grid;
+    align-items: center;
+}
+.column1 {
+    grid-template-columns:  3fr 1fr;
+    margin: 0.7rem 0;
+}
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
