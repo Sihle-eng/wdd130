@@ -38,7 +38,7 @@ p {
     padding: 10px;
 }
 main {
-    max-width: auto;
+    width: auto;
     border-radius: 80%;;
 }
 aside{
