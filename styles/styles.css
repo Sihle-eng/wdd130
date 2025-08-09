@@ -7,6 +7,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-align: center;
 }
 
 
@@ -22,7 +23,7 @@ nav a {
 }
 
 h1 {
-    color: blue;
+    color: grey;
 }
 
 img {
@@ -37,7 +38,8 @@ p {
     padding: 10px;
 }
 main {
-    max-width: 840px;
+    max-width: auto;
+    border-radius: 80%;;
 }
 aside{
     width: 20rem;
@@ -55,6 +57,7 @@ aside img {
 main img{
     width: var(--heading-width);
     height: var(--height);
+    float: left;
 }
 p {padding: 0;}
 footer {
@@ -67,18 +70,18 @@ footer {
     margin: 1rem;
     border: 1px solid rgb(0 0 0 / 10% );
     padding: 1rem;
-    background-color: darkblue;
+    background-color: grey;
     color: #000;
 }
 aside {
-    width: 20em;
+    width: auto;
     text-align: center;
 }
-main img {
-    float: right;
-}
+/* main img {
+    float: right; */
 aside h2 {
-    position: absolute;
+    /* position: obsolute; */
     top: 47px;
-    left: 150px;
+    left: 190px;
+    /* text-align: center; */
 }
